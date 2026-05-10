@@ -1,5 +1,5 @@
 # Modelling of Anaerobic Digestion
-### Advanced Business Analytics — DTU
+### Advanced Business Analytics (DTU)
 
 ---
 
