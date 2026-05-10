@@ -171,13 +171,13 @@ to find operating conditions that maximise biogas output which is the main optim
 | RNN | 24.02% | 17.19% | 1.02% | POOR |
 | LSTM | 76.09% | 41.12% | 1.80% | UNACCEPTABLE |
 
-![Offline MAPE comparison across all models and test conditions](comparison_online_offline_grid.png)
+![Offline MAPE comparison across all models and test conditions](graphs/comparison_online_offline_grid.png)
 
-![Per-run offline MAPE for all four test conditions](comparison_per_run_offline.png)
+![Per-run offline MAPE for all four test conditions](graphs/comparison_per_run_offline.png)
 
-![Training loss vs offline MAPE — lower training loss does not mean better offline performance](comparison_training_vs_offline.png)
+![Training loss vs offline MAPE lower training loss does not mean better offline performance](graphs/comparison_training_vs_offline.png)
 
-![ANN online vs offline MAPE per test run](ann_mape_bar_chart.png)
+![ANN online vs offline MAPE per test run](graphs/ann_mape_bar_chart.png)
 
 ---
 
