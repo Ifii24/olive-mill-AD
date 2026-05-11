@@ -162,7 +162,6 @@ class LSTMModel(nn.Module):
         out, (hn, cn) = self.lstm(x, (h0.detach(), c0.detach()))
         return self.fc(out[:, -1, :])
 ```
-
 The trained surrogate model is a differentiable approximation of the digestion
 process. Once trained, gradient descent can optimise inputs (rather than weights)
 to find operating conditions that maximise biogas output which is the main optimisation application of this project
